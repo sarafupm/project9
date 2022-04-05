@@ -230,6 +230,22 @@
 						"typeProperties": {
 							"waitTimeInSeconds": 10
 						}
+					},
+					{
+						"name": "Wait 5 sec",
+						"type": "Wait",
+						"dependsOn": [
+							{
+								"activity": "Wait 10 sec",
+								"dependencyConditions": [
+									"Succeeded"
+								]
+							}
+						],
+						"userProperties": [],
+						"typeProperties": {
+							"waitTimeInSeconds": 5
+						}
 					}
 				],
 				"policy": {
