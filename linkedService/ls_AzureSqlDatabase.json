@@ -1,0 +1,12 @@
+{
+	"name": "ls_AzureSqlDatabase",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=step2cdb.database.windows.net;initial catalog=demo-database;user id=demoadmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDkyNTI3MUNBLUQ1MTUtNEI3OS1CMjgwLThFRkQ3MkUzOTQ3N19hNWY2MzQzZS01N2Y5LTQ2MGMtOTdjOC1hZjNiZDM1N2Y3ZmQiDQp9"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"name": "ds_csv_data_tbl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_AzureSqlDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"table": "csv_data"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
